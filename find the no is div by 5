@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+n=0
+sum=0
+for i in range(a,b+1):
+      if(i%5==0):
+            n=n+1
+            sum=sum+i
+print("number of integer divisible by 5:",n)
+print("sum of integer divisible by 5:",sum)
