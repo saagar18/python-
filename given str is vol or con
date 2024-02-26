@@ -1,0 +1,10 @@
+str1=str(input())
+vol=0
+con=0
+for i in str1:
+      if(i=="a" or i=="e" or i=="i" or i=="o" or i=="u" or i=="A" or i=="E" or i=="I" or i=="O" or i=="U"):
+            vol=vol+1
+      else:
+            con=con+1
+print(vol)
+print(con)
